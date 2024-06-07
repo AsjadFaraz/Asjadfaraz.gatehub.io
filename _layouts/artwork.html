@@ -7,5 +7,5 @@ layout: default
 {% if page.media contains "vimeo.com" %}
   <iframe src="https://player.vimeo.com/video/{{ page.media | split: '/' | last }}" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 {% else %}
-  <img src="{{ page.media }}" alt="{{ page.title }}">
+  <img src="{{ page.media | relative_url }}" alt="{{ page.title }}">
 {% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Artwork Title"
+title: "Porsche 911"
 description: "This is a description of the artwork."
-media: "https://via.placeholder.com/600x400"
+media: "/pictures/911.jpeg"
 ---

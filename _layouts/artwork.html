@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<p>{{ page.description }}</p>
+{% if page.media contains ".mp4" %}
+  <video controls>
+    <source src="{{ page.media }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+{% else %}
+  <img src="{{ page.media }}" alt="{{ page.title }}">
+{% endif %}
